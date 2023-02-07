@@ -1,0 +1,30 @@
+{
+  "name": "apisurfnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-Vicenzi/APISurfNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheus-Vicenzi/APISurfNode/issues"
+  },
+  "homepage": "https://github.com/Matheus-Vicenzi/APISurfNode#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.19",
+    "module-alias": "^2.2.2"
+  }
+}
